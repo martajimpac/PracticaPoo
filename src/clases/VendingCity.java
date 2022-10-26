@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
- * Clase que gestiona las maquinas vending
+ * Clase que gestiona las maquinas vending de cada ciudad
  * @author Marta Jimenez Pacheco
  */
 

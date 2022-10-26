@@ -10,7 +10,6 @@ import fabricante.externo.tarjetas.TarjetaMonedero;
  * La maquina tiene metodos que permiten reponer los productos y anadir productos nuevos.
  * El estado de la maquina puede ser operativo o fuera de sevicio.
  * @author Marta Jimenez Pacheco
- * @author Victoria Ivanova Dobreva
  * 
  */
 public class VendingMachine{

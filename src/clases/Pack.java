@@ -5,19 +5,17 @@ import java.util.ArrayList;
 
 /**
  * 
+ *En la clase Pack se realizará una inicializacion basada en un array de Producto (Producto[]). 
+ *Debe garantizarse que un pack tenga siempre un minimo de 2 productos, que nunca seran productos repetidos.
+De un pack, ademas de poder conocer su nombre, su precio y su identificador unico (como de cualquier elemento Vendible), 
+debera poder conocerse la cantidad de productos que forman el pack, si un
+producto dado forma parte del pack, asi como saber que productos en concreto forman dicho pack. 
+El precio del pack se calculara con un descuento del 20 % a la suma de los precios de los productos contenidos en el pack.
+Debera garantizarse que si el precio de algunos de los productos del pack cambia, el
+precio del pack tambien.
+Se debera poder gestionar el pack anadiendo y eliminando elementos siempre que se respeten los
+detalles anteriores. En ningun caso se permitira tener packs formados por otros packs.
  * @author marta
- *En la clase Pack se realizar� una inicializaci�n basada en un array de Producto (Producto[]). 
- *Debe
-garantizarse que un pack tenga siempre un m�nimo de 2 productos, que nunca ser�n productos repetidos.
-De un pack, adem�s de poder conocer su nombre, su precio y su identificador �nico (como de cualquier elemento Vendible), 
-deber� poder conocerse la cantidad de productos que forman el pack, si un
-producto dado forma parte del pack, as� como saber qu� productos en concreto forman dicho pack. 
-El precio del pack se calcular� con un descuento del 20 % a la suma de los precios de los productos contenidos en el pack.
-Deber� garantizarse que si el precio de algunos de los productos del pack cambia, el
-precio del pack tambi�n.
-Se deber� poder gestionar el pack a�adiendo y eliminando elementos siempre que se respeten los
-detalles anteriores. En ning�n caso se permitir� tener packs formados por otros packs.
-
  */
 public class Pack extends Vendible{
 	private ArrayList<Product> productos;

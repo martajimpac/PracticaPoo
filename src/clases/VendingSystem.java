@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import clases.VendingCity;
 /**
- * @author Victoria
+ * Clase que gestiona todas las sedes, es decir, las ciudades en las que tenemos maquinas expendedoras.
  * @author Marta Jimenez Pacheco
  *
  */

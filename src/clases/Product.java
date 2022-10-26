@@ -5,7 +5,6 @@ import java.time.LocalDate;
 /**
  * Esta clase corresponde a una instancia de producto de la maquina vending
  * @author Marta Jimenez Pacheco
- * @author Victoria Ivanova Dobreva
  */
 public class Product extends Vendible {
 	private static final int LONGITUDUPC = 12;
